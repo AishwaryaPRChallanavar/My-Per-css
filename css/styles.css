@@ -1,0 +1,183 @@
+
+body{
+    margin: 0;
+    color: #404040;
+    /*First method for alligning text*/
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+hr{
+    color:  #8a8a8a;
+    margin:100px auto;
+    border: dotted;
+    border-bottom: none;
+    width: 7%;
+    border-width: 6px;
+}
+
+.intro{
+    width: 30%;
+    padding: 30px 0px;
+    margin:auto;
+    font-weight: bold;
+}
+
+h1{
+   
+    /*Second method for alligning text*/
+    margin: 50px auto 0 auto;   /* Top right bottom left*/
+    font-family: 'Sacramento', cursive;
+    font-size: 400% ;  /*or 3.00rem         better to use and preferred*/
+    color: #f58293;
+
+}
+
+.midcon{
+    margin:100px 0;
+}
+
+h3{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #EB455F;
+    font-size: 170%;
+    font-weight: bold;
+}
+
+h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5rem;
+    color: #EB455F;
+    padding-bottom: 10px;
+}
+
+p{
+    line-height: 2;
+    font-size: 18px;
+    
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 150px auto;
+    text-align: left;
+    font-weight: bold;
+}
+
+.skill-1{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+
+.skill-2{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+
+.topcon{
+    background-color:#F5EBE0 ;
+    position: relative;
+    padding-top: 100px;
+}
+
+.btn {
+    background: #EB455F;
+    background-image: -webkit-linear-gradient(top,  #EB455F, #bf7399);
+    background-image: -moz-linear-gradient(top,  #EB455F, #bf7399);
+    background-image: -ms-linear-gradient(top,  #EB455F, #bf7399);
+    background-image: -o-linear-gradient(top,  #EB455F, #bf7399);
+    background-image: linear-gradient(to bottom, #EB455F, #bf7399);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family:  'Josefin Sans', sans-serif;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #e8ccda;
+    background-image: -webkit-linear-gradient(top, #e8ccda, #f2c9da);
+    background-image: -moz-linear-gradient(top, #e8ccda, #f2c9da);
+    background-image: -ms-linear-gradient(top, #e8ccda, #f2c9da);
+    background-image: -o-linear-gradient(top, #e8ccda, #f2c9da);
+    background-image: linear-gradient(to bottom, #e8ccda, #f2c9da);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family:  'Josefin Sans', sans-serif;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+/*
+Like a anti float It prevents floating
+
+
+.skill-1-des{
+    clear: left;
+}
+
+.skill-2-des{
+    clear: right;
+}*/
+
+
+
+.contact-me{
+    width: 50%;
+    margin:auto;
+
+}
+
+
+
+
+.pro{
+    text-decoration: underline;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top:50px;
+
+}
+
+.copyright{
+    color: aliceblue;
+}
+
+a{
+    color:#f9bfc7 ;
+    margin: 5px 10px;
+    text-decoration: none;
+}
+
+a:hover{
+    color:aliceblue;
+    font-size: 0.75rem;
+    padding:20px 0px;
+
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom:300px;
+}
+
+.bottom-container{
+    background-color: #EB455F;
+    margin-top: 40px;
+    padding: 50px 0 20px ;
+    
+}
